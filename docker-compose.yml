@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+ sc200l:
+  image: huybk213/dockerhub:sc200l
+  container_name: sc200l
+  stdin_open: true
+  tty: true
+  volumes:
+   - /home/ubuntu/sc200l_android10.0_r04_w21.33.6_3in1:/sc200l
