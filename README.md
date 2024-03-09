@@ -1,4 +1,5 @@
 Docker image for building SC200L Android 10
+
 Run docker compose:
 
     - sudo docker compose -f docker-compose.yml up -d
